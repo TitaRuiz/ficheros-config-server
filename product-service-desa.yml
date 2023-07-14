@@ -2,5 +2,5 @@ server:
   port: 9001
 
 encrypt:
-  key: mitocode-secrets
-  #value:'{cipher}02d40e9d40a6463297b30e8c01309aaa71b39679faeb389773874bfeed3b61d9'
+  key: ggp
+  value:'{cipher}02d40e9d40a6463297b30e8c01309aaa71b39679faeb389773874bfeed3b61d9'
