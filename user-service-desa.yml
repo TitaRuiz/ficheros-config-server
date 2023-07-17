@@ -15,9 +15,9 @@ spring:
    # port: 27017
    # username: ggp
    # password: ggp
-   database: ggpdb
-   uri: mongodb://ggp:ggp@localhost:27017
-   authentication-database: admin
+   # database: ggpdb
+   uri: mongodb://ggp:ggp@localhost:27017/ggpdb?authSource=admin
+   # authentication-database: admin
 
 encrypt:
   key: ggp
