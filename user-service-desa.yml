@@ -21,3 +21,21 @@ spring:
 
 encrypt:
   key: ggp
+  
+# Actuator configuration
+info:
+ app:
+  name: Userr Service Microservice 
+  description: Módulo de la arquitectura que dsiponibiliza información de los usuarios
+  version: 1.0
+
+management:
+ endpoints:
+  web:
+   exposure:
+    include: '*'
+   base-path: /actuator
+ info:
+  env:
+   enabled: true
+    
