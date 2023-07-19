@@ -19,7 +19,7 @@ spring:
       #lb para el balanceo
       uri: lb://user-service
       predicates:
-       - Path=/api/user-service/user
+       - Path=/api/user-service/**
       filters:
        #Para los filtros sólo va a tomar api/user-service
        - StripPrefix=2
