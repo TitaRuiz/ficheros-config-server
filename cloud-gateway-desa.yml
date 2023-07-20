@@ -25,7 +25,7 @@ spring:
        - StripPrefix=2
        - AddRequestHeader=GgpKey, GgpValue
        - AddResponseHeader=GgpHeader, GgpHeaderValue
-       #- AddRequestParameter=role, ROLE_USER
+       - AddRequestParameter=role, ROLE_USER
        #Es el nombre de la clase realizada en java - primera forma de filtro
        #- name: CustomFilter
        #  args:
