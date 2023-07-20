@@ -28,4 +28,4 @@ spring:
        #  args:
        #   headerKey: GgpKey
        #   headerValue: GgpValue
-       - GppFilter=GgpKey,GgpValue
+       - GgpFilter=GgpKey,GgpValue
