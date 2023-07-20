@@ -23,7 +23,7 @@ spring:
       filters:
        #Para los filtros sólo va a tomar api/user-service
        - StripPrefix=2
-       - AddRequesHeader=GgpKey, GgpValue
+       - AddRequestHeader=GgpKey, GgpValue
        - AddResponseHeader=GgpHeader, GgpHeaderValue
        #- AddRequestParameter=role, ROLE_USER
        #Es el nombre de la clase realizada en java - primera forma de filtro
