@@ -23,8 +23,9 @@ spring:
       filters:
        #Para los filtros sólo va a tomar api/user-service
        - StripPrefix=2
-       #Es el nombre de la clase realizada en java
-       - name: CustomFilter
-         args:
-          headerKey: GgpKey
-          headerValue: GgpValue
+       #Es el nombre de la clase realizada en java - primera forma de filtro
+       #- name: CustomFilter
+       #  args:
+       #   headerKey: GgpKey
+       #   headerValue: GgpValue
+       - GppFilter=GgpKey,GgpValue
