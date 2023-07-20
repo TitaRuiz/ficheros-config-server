@@ -25,6 +25,6 @@ spring:
        - StripPrefix=2
        #Es el nombre de la clase realizada en java
        - name: CustomFilter
-        args:
-         headerKey: GgpKey
-         headerValue: GgpValue
+         args:
+          headerKey: GgpKey
+          headerValue: GgpValue
