@@ -31,5 +31,5 @@ spring:
        #  args:
        #   headerKey: GgpKey
        #   headerValue: GgpValue
-       #- GgpFilter=GgpKey,GgpValue
+       - CustomFilterGgp=GgpKey,GgpValue
        
